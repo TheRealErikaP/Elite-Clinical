@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Elite-Clinical | Senior Clinical Operations Leadership for Biotech</title>
+<meta name="description" content="Elite-Clinical provides executive-level Clinical Operations leadership and consulting to emerging biotechnology and pharmaceutical companies. 20+ years, First-in-Human through Phase 3. Founded by Elizabeth Polvent." />
+<link rel="icon" type="image/png" href="assets/favicon.png" />
+<link rel="canonical" href="https://www.elite-clinical.com/" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300&display=swap" rel="stylesheet" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Elite-Clinical",
+  "slogan": "Strategic Science. Accelerating New Medicines.",
+  "description": "Senior Clinical Operations leadership and consulting for biotechnology and pharmaceutical sponsors — interim leadership, early-phase execution, function building, CRO and vendor governance, inspection readiness, and clinical due diligence.",
+  "url": "https://www.elite-clinical.com",
+  "email": "info@elite-clinical.com",
+  "logo": "https://www.elite-clinical.com/assets/elite-clinical-logo.png",
+  "image": "https://www.elite-clinical.com/assets/elite-clinical-logo.png",
+  "address": { "@type": "PostalAddress", "addressLocality": "Loomis", "addressRegion": "CA", "addressCountry": "US" },
+  "areaServed": "Worldwide",
+  "founder": {
+    "@type": "Person",
+    "name": "Elizabeth Polvent",
+    "jobTitle": "Clinical Operations Executive and Consultant",
+    "sameAs": "https://www.linkedin.com/in/eliteclinicallizpolvent"
+  },
+  "sameAs": ["https://www.linkedin.com/in/eliteclinicallizpolvent"],
+  "knowsAbout": ["Clinical Operations","First-in-Human trials","Proof-of-Concept studies","CRO governance","GCP compliance","Inspection readiness","Clinical due diligence","Site feasibility and recruitment"]
+}
+</script>
+
+<style>
+  :root{
+    --navy:#012459;
+    --navy-deep:#01173A;
+    --navy-ink:#010F27;
+    --red:#D10113;
+    --red-dk:#A50010;
+    --slate:#4A5464;
+    --slate-lt:#7C8798;
+    --mist:#F2F5F9;
+    --line:#DCE3EC;
+    --white:#FFFFFF;
+    --fd:'Source Serif 4', Georgia, serif;
+    --fb:'Inter', -apple-system, Segoe UI, sans-serif;
+  }
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{background:var(--white);color:var(--navy-ink);font-family:var(--fb);font-size:16px;font-weight:400;line-height:1.7;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  a{color:inherit;text-decoration:none}
+  img{display:block;max-width:100%}
+  :focus-visible{outline:2px solid var(--red);outline-offset:3px}
+
+  .wrap{max-width:1200px;margin:0 auto;padding:0 40px}
+
+  .eyebrow{display:block;font-size:10px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--red);margin-bottom:18px}
+  .eyebrow-lt{color:#7FA0D8}
+
+  h1,h2,h3{font-family:var(--fd);font-weight:400;line-height:1.15;letter-spacing:-.01em}
+
+  /* helix divider — brand signature */
+  .helix{display:block;width:100%;height:44px;opacity:.5}
+  .helix-wrap{padding:0 40px;max-width:1200px;margin:0 auto}
+
+  /* BUTTONS */
+  .btn{display:inline-block;font-family:var(--fb);font-size:12px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;padding:16px 30px;border:1px solid transparent;transition:background .3s,color .3s,border-color .3s;cursor:pointer}
+  .btn-red{background:var(--red);color:#fff;border-color:var(--red)}
+  .btn-red:hover{background:var(--red-dk);border-color:var(--red-dk)}
+  .btn-navy{background:var(--navy);color:#fff;border-color:var(--navy)}
+  .btn-navy:hover{background:var(--navy-deep);border-color:var(--navy-deep)}
+  .btn-outline{background:transparent;color:var(--navy);border-color:var(--line)}
+  .btn-outline:hover{border-color:var(--navy)}
+  .btn-outline-lt{background:transparent;color:#fff;border-color:rgba(255,255,255,.35)}
+  .btn-outline-lt:hover{border-color:#fff;background:rgba(255,255,255,.06)}
+
+  /* NAV */
+  header{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(1,23,58,0);transition:background .4s,box-shadow .4s,padding .4s;padding:20px 0}
+  header.solid{background:var(--navy-deep);box-shadow:0 1px 0 rgba(255,255,255,.08);padding:12px 0}
+  .nav{display:flex;align-items:center;justify-content:space-between;gap:24px}
+  .brand{display:flex;align-items:center;gap:12px}
+  .brand img{height:30px;width:auto}
+  .brand-txt{font-family:var(--fd);font-size:17px;letter-spacing:.14em;text-transform:uppercase;color:#fff;white-space:nowrap}
+  .nav-links{display:flex;align-items:center;gap:32px;list-style:none}
+  .nav-links a{font-size:12px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.72);transition:color .3s}
+  .nav-links a:hover{color:#fff}
+  .nav-cta{font-size:11px !important;font-weight:600 !important;color:#fff !important;border:1px solid rgba(255,255,255,.4);padding:11px 20px;transition:background .3s,border-color .3s !important}
+  .nav-cta:hover{background:var(--red);border-color:var(--red)}
+  .burger{display:none;background:none;border:0;cursor:pointer;padding:8px}
+  .burger span{display:block;width:22px;height:1.5px;background:#fff;margin:5px 0}
+
+  /* HERO */
+  .hero{position:relative;background:var(--navy-deep);color:#fff;padding:180px 0 120px;overflow:hidden}
+  .hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 75% 10%, rgba(1,36,89,.95) 0%, rgba(1,15,39,1) 70%)}
+  .hero-helix{position:absolute;right:-8%;top:50%;transform:translateY(-50%);width:52%;max-width:700px;opacity:.13;pointer-events:none}
+  .hero-inner{position:relative;z-index:2;max-width:720px}
+  .hero h1{font-size:clamp(38px,4.6vw,62px);color:#fff;margin-bottom:26px}
+  .hero h1 em{font-style:normal;color:#8FB0E4}
+  .hero p{font-size:17px;font-weight:300;color:rgba(255,255,255,.75);line-height:1.8;max-width:600px;margin-bottom:38px}
+  .hero-btns{display:flex;gap:14px;flex-wrap:wrap}
+  .hero-rule{width:44px;height:2px;background:var(--red);margin-bottom:26px}
+
+  /* CREDENTIAL LEDGER */
+  .ledger{background:var(--navy);border-top:1px solid rgba(255,255,255,.08)}
+  .ledger-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:rgba(255,255,255,.09)}
+  .led{background:var(--navy);padding:32px 22px;text-align:center}
+  .led b{display:block;font-family:var(--fd);font-size:30px;font-weight:400;color:#fff;line-height:1.1;margin-bottom:6px}
+  .led span{font-size:10px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.55);line-height:1.5;display:block}
+
+  /* SECTIONS */
+  section{padding:110px 0}
+  .s-mist{background:var(--mist)}
+  .s-hd{max-width:720px;margin-bottom:60px}
+  .s-hd h2{font-size:clamp(30px,3.4vw,44px);color:var(--navy);margin-bottom:18px}
+  .s-hd p{color:var(--slate);font-size:16px;font-weight:300;line-height:1.85}
+  .s-hd-c{margin-left:auto;margin-right:auto;text-align:center}
+
+  /* VALUE BLOCKS */
+  .val-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:40px}
+  .val{padding-top:24px;border-top:2px solid var(--navy)}
+  .val:nth-child(2){border-top-color:var(--red)}
+  .val h3{font-size:24px;color:var(--navy);margin-bottom:12px}
+  .val p{color:var(--slate);font-size:15px;font-weight:300;line-height:1.85}
+
+  /* ABOUT */
+  .about-grid{display:grid;grid-template-columns:0.85fr 1.15fr;gap:80px;align-items:center}
+  .about-photo{position:relative}
+  .about-photo .frame{aspect-ratio:4/5;background:var(--mist);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;overflow:hidden}
+  .about-photo .frame img{width:100%;height:100%;object-fit:cover;object-position:center top}
+  .about-photo .frame .ph{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--slate-lt);text-align:center;padding:24px;line-height:2}
+  .about-photo::after{content:'';position:absolute;left:-14px;bottom:-14px;width:120px;height:120px;border-left:2px solid var(--red);border-bottom:2px solid var(--red);pointer-events:none}
+  .about-copy h2{font-size:clamp(28px,3.2vw,42px);color:var(--navy);margin-bottom:22px}
+  .about-copy p{color:var(--slate);font-size:16px;font-weight:300;line-height:1.9;margin-bottom:18px}
+  .about-copy .sig{font-family:var(--fd);font-size:18px;font-style:italic;color:var(--navy);margin:28px 0 30px;padding-left:20px;border-left:2px solid var(--red)}
+  .hl{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:0 32px;margin:0 0 32px}
+  .hl li{font-size:14px;color:var(--slate);padding:11px 0;border-bottom:1px solid var(--line);display:flex;gap:12px;align-items:baseline}
+  .hl li::before{content:'';flex:0 0 14px;height:1px;background:var(--red);transform:translateY(-4px)}
+
+  /* SERVICES */
+  .svc-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+  .svc-cta{background:var(--navy);padding:38px 32px;display:flex;flex-direction:column;justify-content:center}
+  .svc-cta h3{font-family:var(--fd);font-size:21px;font-weight:400;color:#fff;line-height:1.3;margin-bottom:12px}
+  .svc-cta p{font-size:14px;font-weight:300;color:rgba(255,255,255,.65);line-height:1.8;margin-bottom:20px}
+  .svc-cta a{font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#fff;border-bottom:1px solid var(--red);padding-bottom:5px;align-self:flex-start}
+  .svc{background:#fff;padding:38px 32px;transition:background .35s}
+  .svc:hover{background:var(--mist)}
+  .svc .n{font-family:var(--fd);font-size:13px;color:var(--red);letter-spacing:.1em;display:block;margin-bottom:14px}
+  .svc h3{font-size:21px;color:var(--navy);margin-bottom:12px;line-height:1.3}
+  .svc p{font-size:14px;font-weight:300;color:var(--slate);line-height:1.8}
+  .svc-foot{margin-top:48px;display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+
+  /* PROCESS */
+  .s-proc{background:var(--navy-deep);color:#fff}
+  .s-proc .s-hd h2{color:#fff}
+  .s-proc .s-hd p{color:rgba(255,255,255,.6)}
+  .proc{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.1)}
+  .step{background:var(--navy-deep);padding:34px 24px}
+  .step .n{font-size:10px;font-weight:600;letter-spacing:.18em;color:var(--red);display:block;margin-bottom:14px}
+  .step h3{font-size:20px;color:#fff;margin-bottom:10px}
+  .step p{font-size:13px;font-weight:300;color:rgba(255,255,255,.6);line-height:1.75}
+
+  /* OUTCOMES */
+  .out-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:0 60px}
+  .out{display:flex;gap:18px;padding:22px 0;border-bottom:1px solid var(--line)}
+  .out svg{flex:0 0 20px;width:20px;height:20px;stroke:var(--red);fill:none;stroke-width:1.6;margin-top:4px}
+  .out h3{font-size:18px;color:var(--navy);margin-bottom:4px}
+  .out p{font-size:14px;font-weight:300;color:var(--slate);line-height:1.75}
+
+  /* TESTIMONIALS */
+  .t-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+  .t{background:#fff;border:1px solid var(--line);border-top:2px solid var(--navy);padding:38px 32px}
+  .t p{font-family:var(--fd);font-size:17px;font-style:italic;color:var(--navy-ink);line-height:1.65;margin-bottom:22px}
+  .t cite{font-style:normal;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--slate-lt)}
+
+  /* CTA */
+  .s-cta{background:var(--navy);color:#fff;text-align:center;position:relative;overflow:hidden}
+  .cta-mark{height:64px;width:auto;margin:0 auto 28px;opacity:.85}
+  .s-cta h2{font-size:clamp(32px,4vw,50px);color:#fff;margin-bottom:20px}
+  .s-cta p{max-width:560px;margin:0 auto 38px;font-size:16px;font-weight:300;color:rgba(255,255,255,.7);line-height:1.85}
+  .cta-btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+  .cta-mail{margin-top:30px;font-size:13px;color:rgba(255,255,255,.55)}
+  .cta-mail a{border-bottom:1px solid rgba(255,255,255,.3)}
+  .cta-mail a:hover{color:#fff}
+
+  /* FOOTER */
+  footer{background:var(--navy-ink);color:rgba(255,255,255,.6);padding:74px 0 34px}
+  .ft-top{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:48px;padding-bottom:44px;border-bottom:1px solid rgba(255,255,255,.08)}
+  .ft-logo{height:92px;width:auto;margin-bottom:20px}
+  .ft-brand p{font-size:13px;font-weight:300;line-height:1.85;max-width:290px;color:rgba(255,255,255,.5)}
+  .ft-col h4{font-family:var(--fb);font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#8FB0E4;margin-bottom:18px}
+  .ft-col ul{list-style:none}
+  .ft-col li{margin-bottom:9px}
+  .ft-col a,.ft-col span{font-size:13px;font-weight:300;color:rgba(255,255,255,.5);transition:color .3s}
+  .ft-col a:hover{color:#fff}
+  .ft-seo{padding:26px 0 0}
+  .ft-seo p{font-size:11px;font-weight:300;line-height:1.8;color:rgba(255,255,255,.28)}
+  .ft-btm{margin-top:22px;padding-top:22px;border-top:1px solid rgba(255,255,255,.06);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+  .ft-btm p{font-size:11px;color:rgba(255,255,255,.3)}
+
+  @media (max-width:1024px){
+    .ledger-grid{grid-template-columns:repeat(3,1fr)}
+    .val-grid{grid-template-columns:1fr;gap:32px}
+    .svc-grid{grid-template-columns:repeat(2,1fr)}
+    .proc{grid-template-columns:repeat(2,1fr)}
+    .about-grid{grid-template-columns:1fr;gap:48px}
+    .t-grid{grid-template-columns:1fr}
+    .ft-top{grid-template-columns:1fr 1fr}
+  }
+  @media (max-width:768px){
+    .wrap,.helix-wrap{padding:0 22px}
+    .nav-links{display:none}
+    .burger{display:block}
+    .brand-txt{font-size:14px}
+    .hero{padding:130px 0 80px}
+    .hero-helix{display:none}
+    section{padding:70px 0}
+    .ledger-grid{grid-template-columns:repeat(2,1fr)}
+    .svc-grid{grid-template-columns:1fr}
+    .proc{grid-template-columns:1fr}
+    .hl{grid-template-columns:1fr}
+    .out-grid{grid-template-columns:1fr;gap:0}
+    .ft-top{grid-template-columns:1fr;gap:32px}
+    .hero-btns,.cta-btns{flex-direction:column;align-items:stretch;text-align:center}
+  }
+  @media (prefers-reduced-motion:reduce){*{animation:none !important;transition:none !important}}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<header id="hdr">
+  <div class="wrap nav">
+    <a class="brand" href="index.html" aria-label="Elite-Clinical home">
+      <img src="assets/elite-clinical-mark-white.png" alt="Elite-Clinical" />
+      <span class="brand-txt">Elite&nbsp;Clinical</span>
+    </a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="experience.html">Experience &amp; Impact</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html" class="nav-cta">Schedule a Discovery Call</a></li>
+      </ul>
+    </nav>
+    <button class="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <svg class="hero-helix" viewBox="0 0 800 240" aria-hidden="true">
+    <path d="M20,120 C120,10 220,10 320,120 C420,230 520,230 620,120 C680,54 740,42 790,60" fill="none" stroke="#8FB0E4" stroke-width="3"/>
+    <path d="M20,120 C120,230 220,230 320,120 C420,10 520,10 620,120 C680,186 740,198 790,180" fill="none" stroke="#D10113" stroke-width="3"/>
+    <g stroke="#8FB0E4" stroke-width="2">
+      <line x1="120" y1="52" x2="120" y2="188"/><line x1="220" y1="52" x2="220" y2="188"/>
+      <line x1="420" y1="52" x2="420" y2="188"/><line x1="520" y1="52" x2="520" y2="188"/>
+      <line x1="320" y1="118" x2="320" y2="122"/>
+    </g>
+  </svg>
+  <div class="wrap hero-inner">
+    <div class="hero-rule"></div>
+    <span class="eyebrow eyebrow-lt">Strategic Science. Accelerating New Medicines.</span>
+    <h1>Senior Clinical Operations leadership for <em>emerging biotechnology companies.</em></h1>
+    <p>Elite-Clinical helps sponsors move clinical programs from strategy to execution — experienced leadership, operational discipline, proactive risk management, and hands-on delivery.</p>
+    <div class="hero-btns">
+      <a href="contact.html" class="btn btn-red">Schedule a Discovery Call</a>
+      <a href="services.html" class="btn btn-outline-lt">Explore Services</a>
+    </div>
+  </div>
+</section>
+
+<!-- CREDENTIAL LEDGER -->
+<div class="ledger">
+  <div class="wrap">
+    <div class="ledger-grid">
+      <div class="led"><b>20+</b><span>Years in clinical<br>research &amp; development</span></div>
+      <div class="led"><b>FIH&ndash;Ph3</b><span>First-in-Human through<br>late-stage programs</span></div>
+      <div class="led"><b>10+</b><span>Global FIH and<br>proof-of-concept trials</span></div>
+      <div class="led"><b>$150M+</b><span>Clinical portfolio<br>and budget oversight</span></div>
+      <div class="led"><b>FDA &amp; NIH</b><span>Regulatory and<br>inspection experience</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- VALUE BLOCKS -->
+<section>
+  <div class="wrap">
+    <div class="s-hd">
+      <span class="eyebrow">What Elite-Clinical Does</span>
+      <h2>Clinical development strategy, built to actually be executed.</h2>
+      <p>Elite-Clinical partners with biotechnology and pharmaceutical organizations that need experienced Clinical Operations leadership at critical stages of development — interim leadership, early-phase execution, function building, vendor governance, operational rescue, inspection readiness, and clinical due diligence.</p>
+    </div>
+    <div class="val-grid">
+      <div class="val">
+        <h3>Strategy to Execution</h3>
+        <p>Development objectives become realistic operational plans: timelines, budgets, outsourcing models, and an execution strategy your team can run.</p>
+      </div>
+      <div class="val">
+        <h3>Clinical Excellence</h3>
+        <p>Scalable systems, teams, partnerships, and processes that hold up under the demands of global clinical development.</p>
+      </div>
+      <div class="val">
+        <h3>Compliance and Quality</h3>
+        <p>Risks identified early. Sponsor oversight strengthened. Audits and inspections prepared for — before they are on the calendar.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="s-mist">
+  <div class="wrap about-grid">
+    <div class="about-photo">
+      <div class="frame">
+        <!-- Replace the div below with: <img src="assets/elizabeth-polvent.jpg" alt="Elizabeth Polvent, Founder of Elite-Clinical" /> -->
+        <div class="ph">Professional headshot<br>Elizabeth Polvent</div>
+      </div>
+    </div>
+    <div class="about-copy">
+      <span class="eyebrow">Experienced Leadership for Complex Programs</span>
+      <h2>Elizabeth Polvent</h2>
+      <p>Elizabeth is a Clinical Operations executive and consultant with more than two decades leading global clinical development programs, from First-in-Human through Phase 3.</p>
+      <p>She works where strategy has to be paired with hands-on execution — small, virtual, and resource-constrained biotech organizations that need senior judgment without full-time overhead. She has built Clinical Operations functions from a single-person department into teams of 12 or more, led global early-phase studies, governed complex CRO relationships, and supported FDA and NIH interactions.</p>
+      <div class="sig">Protect the participants. Protect the data. Protect the program.</div>
+      <ul class="hl">
+        <li>Clinical Operations function building</li>
+        <li>Global CRO and vendor governance</li>
+        <li>Inspection readiness and GCP compliance</li>
+        <li>Clinical quality and integrity investigations</li>
+        <li>Early-stage and virtual biotech expertise</li>
+        <li>M&amp;A and operational due diligence</li>
+      </ul>
+      <a href="about.html" class="btn btn-navy">Read the Full Background</a>
+    </div>
+  </div>
+</section>
+
+<div class="helix-wrap" aria-hidden="true">
+  <svg class="helix" viewBox="0 0 1200 44" preserveAspectRatio="none">
+    <path d="M0,22 C75,4 150,4 225,22 C300,40 375,40 450,22 C525,4 600,4 675,22 C750,40 825,40 900,22 C975,4 1050,4 1125,22 C1150,28 1175,30 1200,29" fill="none" stroke="#012459" stroke-width="1.5" vector-effect="non-scaling-stroke"/>
+    <path d="M0,22 C75,40 150,40 225,22 C300,4 375,4 450,22 C525,40 600,40 675,22 C750,4 825,4 900,22 C975,40 1050,40 1125,22 C1150,16 1175,14 1200,15" fill="none" stroke="#D10113" stroke-width="1.5" vector-effect="non-scaling-stroke"/>
+  </svg>
+</div>
+
+<!-- SERVICES -->
+<section>
+  <div class="wrap">
+    <div class="s-hd">
+      <span class="eyebrow">Services</span>
+      <h2>Flexible consulting, from focused projects to interim leadership.</h2>
+      <p>Every engagement is scoped to the development stage, internal capabilities, program risks, and near-term objectives of the client. Some sponsors need a department built. Some need one problem solved.</p>
+    </div>
+    <div class="svc-grid">
+      <div class="svc">
+        <span class="n">01</span>
+        <h3>Interim &amp; Fractional Clinical Operations Leadership</h3>
+        <p>Head, Executive Director, or VP-level support. Portfolio oversight, board-level reporting, organizational design, hiring plans, and team mentoring.</p>
+      </div>
+      <div class="svc">
+        <span class="n">02</span>
+        <h3>Clinical Program Strategy &amp; Execution</h3>
+        <p>FIH and proof-of-concept planning, protocol operationalization, country and site strategy, critical-path timelines, and rescue planning for programs that have stalled.</p>
+      </div>
+      <div class="svc">
+        <span class="n">03</span>
+        <h3>Clinical Operations Function Building</h3>
+        <p>Infrastructure design, SOPs and process development, governance models, escalation pathways, KPI and KQI frameworks, and startup-to-scale planning.</p>
+      </div>
+      <div class="svc">
+        <span class="n">04</span>
+        <h3>CRO &amp; Vendor Strategy</h3>
+        <p>Selection, RFP strategy, bid analysis and negotiation, outsourcing models, governance committees, performance management, and CRO transition planning.</p>
+      </div>
+      <div class="svc">
+        <span class="n">05</span>
+        <h3>Site Selection, Feasibility &amp; Recruitment</h3>
+        <p>Investigator and institution research, competitive enrollment analysis, site prioritization, enrollment forecasting, activation planning, and referral-network analysis.</p>
+      </div>
+      <div class="svc">
+        <span class="n">06</span>
+        <h3>Quality, Compliance &amp; Inspection Readiness</h3>
+        <p>Sponsor oversight assessments, GCP risk reviews, TMF quality, CAPA support, for-cause investigations, data-integrity risk identification, and audit response planning.</p>
+      </div>
+      <div class="svc">
+        <span class="n">07</span>
+        <h3>Due Diligence &amp; Program Assessment</h3>
+        <p>Clinical program health checks, operational due diligence for M&amp;A and investment, contract exposure review, and timeline and budget credibility assessments.</p>
+      </div>
+      <div class="svc-cta">
+        <h3>Not sure what you need yet?</h3>
+        <p>Bring the problem. We will scope it together — and if it is not the right fit, I will tell you that too.</p>
+        <a href="contact.html">Start the Conversation</a>
+      </div>
+    </div>
+    <div class="svc-foot">
+      <a href="services.html" class="btn btn-navy">See All Services in Detail</a>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="s-proc">
+  <div class="wrap">
+    <div class="s-hd">
+      <span class="eyebrow eyebrow-lt">How I Work</span>
+      <h2>A partnership, not a deliverable drop.</h2>
+      <p>Collaborative, transparent, and proactive — built on quality, science, and purpose.</p>
+    </div>
+    <div class="proc">
+      <div class="step"><span class="n">Step 01</span><h3>Discover</h3><p>Understand the program, the risks, the team, and what is actually getting in the way.</p></div>
+      <div class="step"><span class="n">Step 02</span><h3>Plan</h3><p>Build the operational plan: scope, sequence, timelines, budget, and ownership.</p></div>
+      <div class="step"><span class="n">Step 03</span><h3>Execute</h3><p>Hands-on delivery alongside your team and vendors — not from the sidelines.</p></div>
+      <div class="step"><span class="n">Step 04</span><h3>Optimize</h3><p>Adjust as data comes in. Fix what is underperforming before it becomes a delay.</p></div>
+      <div class="step"><span class="n">Step 05</span><h3>Deliver</h3><p>Transition the work back to your team with the systems and documentation to sustain it.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- OUTCOMES -->
+<section class="s-mist">
+  <div class="wrap">
+    <div class="s-hd">
+      <span class="eyebrow">Outcomes for Clients</span>
+      <h2>What senior operational leadership changes.</h2>
+    </div>
+    <div class="out-grid">
+      <div class="out">
+        <svg viewBox="0 0 24 24"><path d="M13 2L4.5 13H11l-1 9 8.5-11H12l1-9z"/></svg>
+        <div><h3>Faster study startup and enrollment</h3><p>Sites activated on a realistic plan, with enrollment forecasting grounded in competitive reality.</p></div>
+      </div>
+      <div class="out">
+        <svg viewBox="0 0 24 24"><path d="M12 3l8 3v5c0 5-3.4 8.5-8 10-4.6-1.5-8-5-8-10V6l8-3z"/><path d="M9 12l2 2 4-4"/></svg>
+        <div><h3>Lower operational and compliance risk</h3><p>Risks surfaced early, escalation paths defined, and sponsor oversight documented the way inspectors expect to see it.</p></div>
+      </div>
+      <div class="out">
+        <svg viewBox="0 0 24 24"><path d="M4 19V9M10 19V5M16 19v-7M22 19H2"/></svg>
+        <div><h3>Stronger data quality and inspection readiness</h3><p>TMF completeness, data-integrity checks, and audit preparation handled as ongoing work — not a fire drill.</p></div>
+      </div>
+      <div class="out">
+        <svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3 20a6 6 0 0112 0M17 6l2 2 4-4"/></svg>
+        <div><h3>Efficient CRO and vendor oversight</h3><p>Governance that holds partners accountable to scope, budget, and timeline — with change orders that get challenged.</p></div>
+      </div>
+      <div class="out">
+        <svg viewBox="0 0 24 24"><path d="M3 17l6-6 4 4 8-8"/><path d="M21 7v6h-6"/></svg>
+        <div><h3>Strategic guidance that supports value creation</h3><p>Programs positioned to hold up under investor, partner, and acquirer scrutiny.</p></div>
+      </div>
+      <div class="out">
+        <svg viewBox="0 0 24 24"><path d="M12 3v18M5 8l7-5 7 5M5 16l7 5 7-5"/></svg>
+        <div><h3>Executive judgment without full-time overhead</h3><p>Senior leadership scaled to what the program needs right now, and no more.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section>
+  <div class="wrap">
+    <div class="s-hd s-hd-c">
+      <span class="eyebrow">In Their Words</span>
+      <h2>What clients and colleagues say</h2>
+    </div>
+    <div class="t-grid">
+      <div class="t">
+        <p>Testimonial one goes here. A sponsor CEO or CMO speaking to the program that got back on track is the strongest possible opener.</p>
+        <cite>Name · Title · Company</cite>
+      </div>
+      <div class="t">
+        <p>Testimonial two goes here. Use a colleague or board member who can speak to leadership, judgment, and how she operates under pressure.</p>
+        <cite>Name · Title · Company</cite>
+      </div>
+      <div class="t">
+        <p>Testimonial three goes here. A vendor, CRO partner, or investor speaking to oversight and quality rounds out the set.</p>
+        <cite>Name · Title · Company</cite>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="s-cta">
+  <div class="wrap">
+    <img class="cta-mark" src="assets/elite-clinical-mark-white.png" alt="" aria-hidden="true" />
+    <h2>Let's talk about your program.</h2>
+    <p>Whether you need an interim Clinical Operations leader, a second set of eyes on a struggling study, or a function built from nothing — start with a conversation. No pitch deck required.</p>
+    <div class="cta-btns">
+      <a href="contact.html" class="btn btn-red">Schedule a Discovery Call</a>
+      <a href="experience.html" class="btn btn-outline-lt">See Experience &amp; Impact</a>
+    </div>
+    <p class="cta-mail">Or email directly: <a href="mailto:info@elite-clinical.com">info@elite-clinical.com</a></p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="ft-top">
+      <div class="ft-brand">
+        <img class="ft-logo" src="assets/elite-clinical-logo-white.png" alt="Elite-Clinical — Strategic Science. Accelerating New Medicines." />
+        <p>Senior Clinical Operations leadership and consulting for biotechnology and pharmaceutical sponsors. Founded by Elizabeth Polvent. Based in Loomis, California — supporting global programs.</p>
+      </div>
+      <div class="ft-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="experience.html">Experience &amp; Impact</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="ft-col">
+        <h4>Capabilities</h4>
+        <ul>
+          <li><a href="services.html">Interim Clinical Ops Leadership</a></li>
+          <li><a href="services.html">Early-Phase Execution (FIH/POC)</a></li>
+          <li><a href="services.html">CRO &amp; Vendor Governance</a></li>
+          <li><a href="services.html">Inspection Readiness</a></li>
+          <li><a href="services.html">Due Diligence Support</a></li>
+        </ul>
+      </div>
+      <div class="ft-col">
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="mailto:info@elite-clinical.com">info@elite-clinical.com</a></li>
+          <li><a href="https://www.linkedin.com/in/eliteclinicallizpolvent" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><span>Loomis, California</span></li>
+          <li><a href="contact.html">Schedule a Discovery Call</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ft-seo">
+      <p>Elite-Clinical provides Clinical Operations consulting to biotechnology and pharmaceutical sponsors, including interim and fractional Clinical Operations leadership, First-in-Human and proof-of-concept program execution, clinical operations function building, CRO and vendor selection and governance, site feasibility and patient recruitment strategy, GCP compliance and inspection readiness, sponsor oversight and quality governance, and clinical operational due diligence for investment, partnership, and M&amp;A activity. More than 20 years of global clinical development experience across First-in-Human through Phase 3 programs.</p>
+    </div>
+    <div class="ft-btm">
+      <p>&copy; 2026 Elite-Clinical. All rights reserved.</p>
+      <p>Consulting services only. Content on this site is informational and does not constitute regulatory, legal, or medical advice.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var hdr = document.getElementById('hdr');
+  var onScroll = function(){ hdr.classList.toggle('solid', window.scrollY > 40); };
+  window.addEventListener('scroll', onScroll, {passive:true});
+  onScroll();
+</script>
+</body>
+</html>
